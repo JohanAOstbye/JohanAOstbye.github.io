@@ -1,0 +1,43 @@
+<!--
+FILE NAME: events.html
+WRITTEN BY: Morten Dahl
+WHEN: October 2017
+PURPOSE: Webpage with integrated calendar
+
+Endringer: Lagt til kalender widget
+-->
+
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+	<meta name="viewport" content="initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Arrangement</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="eventsBody">
+	<div id="navBar">
+	</div>
+	<div id="content">
+		<div class="centerCalendar">
+			<div id="eventsCalendar" data-tockify-component="calendar" data-tockify-calendar="simen"></div>
+		</div>
+
+		<div id="textEvents" class="textClass">
+			<p>
+				Her kan du se hva NTNUi Seiling skal i fremtiden!</br>
+				Sjekk ut vår kalender og meld deg på for å bli med </br>
+				på neste tokt!
+
+			</p>
+		</div>
+	</div>
+
+	<script class="eventsCalendar" data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+	<script src="js/navBar.js" type="text/javascript"></script>
+</body>
+
+</html>
